@@ -4,7 +4,67 @@ main {
 }
 
 .index-main .banner {
-    background: url(https://i.ibb.co/tHZ8c87/banner.png) no-repeat;
+    background: url(../../../asset/img/banner.png) no-repeat;
     height: 450px;
     background-size: cover;
 }
+
+.index-main .banner .title {
+    font-size: 37px;
+    color: #68ad92;
+    padding: 130px 0 0 0;
+    line-height: 80px;
+    font-weight: 500;
+}
+
+.banner-area {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.index-main .banner .banner-area .text-area {
+    font-size: 34px;
+    color: #004abf;
+    padding: 130px 0 0 0;
+    line-height: 80px;
+    font-weight: 500;
+}
+@keyframes typing{
+    from{ width: 0; }
+  }
+   
+  @keyframes cursor{
+    50%{ border-color: transparent; }
+  }
+
+#contents > section > div > div.effect-text{
+    line-height: 30px;
+    width: 60ch;
+    overflow: hidden; 
+    white-space: nowrap;
+    animation: typing 3.5s steps(30);
+   
+}
+#contents > section > div > div.effect-text p{
+    font-size: 25px;
+    color: #666;
+    line-height: initial;
+}
+
+#contents > section > div > img {
+    position: absolute;
+     top: 5px; 
+     right: 50px;
+     animation: motion 0.5s linear 0s infinite alternate;
+    }
+    @keyframes motion {
+        0% {margin-top: 0px;}
+        100% {margin-top: 10px;}
+    }
+
+    .word{
+        font-size:55px;
+    }
+
+
