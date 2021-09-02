@@ -5,17 +5,11 @@ main {
 
 .index-main .banner {
     background: url(../../../asset/img/banner.png) no-repeat;
-    height: 450px;
+    height: 400px;
     background-size: cover;
 }
 
-.index-main .banner .title {
-    font-size: 37px;
-    color: #68ad92;
-    padding: 130px 0 0 0;
-    line-height: 80px;
-    font-weight: 500;
-}
+
 
 .banner-area {
     width: 1200px;
@@ -66,5 +60,59 @@ main {
     .word{
         font-size:55px;
     }
+
+#contents > section.my-skills > div{
+    text-align: center;
+    padding: 80px 0px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
+.my-skills > div > p{
+    font-size: 16px;
+    padding: 0px 0px 65px 0px;
+}
+.my-skills > div >.skill-img{
+    padding-left:0px;
+}
+.my-skills > div >.skill-img li {
+    display: inline-block;
+    width: 33.3%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.my-skills > div >.skill-img li img {
+    width:64px;
+}
+
+.index-main .my-project div{
+    text-align: center;
+    padding: 80px 0px;
+}
+
+
+
+
+#my-content > div{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+#my-content > div > h2{
+    font-size: 30px;
+    color: #71b1a1;
+    padding: 0 0 16px;
+    font-weight: 500;
+
+}
 
 

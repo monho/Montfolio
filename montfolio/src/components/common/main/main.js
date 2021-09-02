@@ -19,6 +19,39 @@ const Main = () => {
           
         </div>
       </section>
+      <section class="my-skills" id="my-content">
+        <div>
+        <h2>My Skills</h2>
+        <p>제일 잘하는것들로 파트별로 나누어봤습니다.<br></br>저를 더 자세히 소개하기위해 준비한 프로젝트도 있습니다.</p>
+        <ul class="skill-img">
+          <li>
+            <div>
+              <img src="https://i.ibb.co/6Jwtyc3/frontend.png"></img>
+              <h4>Frontend</h4>
+              <p>
+                HTML5·CSS·JAVASCRIPT<br></br>React 개발
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="https://i.ibb.co/8c1FBBX/backend.png"></img>
+              <h4>Backend</h4>
+              <p>
+                Node.js·Express개발<br></br>Mysql DB 모델링
+              </p>
+            </div>
+            </li>
+        </ul>
+        </div>
+        
+      </section>
+      <section class="my-project" id="my-content">
+        <div>
+        <h2>My Project</h2>
+        </div>
+      </section>
+
       
     </main>
 
