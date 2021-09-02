@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    background: #fff;
+}
+
+header > div {
+    width: 1200px;
+    margin: 0 auto;
+    height: 81px;
+    position: relative;
+}
+
+header h1 {
+    float: left;
+    line-height: 60px;
+    height: 40px;
+}
+
+header h1 >a{
+    display: inline-block;
+    
+}
+
+
+header .menu {
+    float: left;
+    margin-left: 20px;
+}
+
+header .lnb ul {
+    font-size: 0px;
+}
+
+header .lnb li {
+    display: inline-block;
+}
+
+header .lnb li a {
+    display: block;
+    line-height: 81px;
+    padding: 0 20px;
+    font-size: 16px;
+}

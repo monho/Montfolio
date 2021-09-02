@@ -1,0 +1,16 @@
+
+*{font-family: 'Noto Sans KR', sans-serif;}
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+main, header, section, nav, footer, aside, article, figure {
+    display: block;
+}

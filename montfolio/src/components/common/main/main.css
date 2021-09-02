@@ -1,0 +1,10 @@
+main {
+    min-height: calc(100vh - 185px);
+    padding-top: 81px;
+}
+
+.index-main .banner {
+    background: url(https://i.ibb.co/tHZ8c87/banner.png) no-repeat;
+    height: 450px;
+    background-size: cover;
+}
