@@ -19,7 +19,7 @@ main {
 }
 .index-main .banner .banner-area .text-area {
     font-size: 34px;
-    color: #004abf;
+    color: #71b1a1;
     padding: 130px 0 0 0;
     line-height: 80px;
     font-weight: 500;
@@ -39,6 +39,23 @@ main {
     white-space: nowrap;
     animation: typing 3.5s steps(30);
    
+}
+#contents > section > div > div.effect-text2{
+    line-height: 30px;
+    width: 60ch;
+    overflow: hidden; 
+    position: absolute;
+    left:90%;
+    top:85%;
+    white-space: nowrap;
+    animation: typing 3.5s steps(30);
+   
+}
+
+#contents > section.banner > div > div.effect-text2 > span{
+    font-size: 25px;
+    color: #666;
+    line-height: initial;
 }
 #contents > section > div > div.effect-text p{
     font-size: 25px;

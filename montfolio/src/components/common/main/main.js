@@ -1,8 +1,9 @@
 import "./main.css";
-import React from 'react'
+import React, {useState} from 'react';
+import styled from 'styled-components';
 
-const Main = () => {
- 
+const Main = () => { 
+  
   
   return (
     <main id="contents" class="index-main">
@@ -14,6 +15,9 @@ const Main = () => {
           </div>
           <div class="effect-text">
             <p> 개발자 문준호 입니다.</p><br></br>
+          </div>
+          <div class="effect-text2">
+          <span class="title"><span class="word">기</span>록하는 남자</span>
           </div>
           <img class="logo" src="https://i.ibb.co/TPKwx9v/logo.png"></img>
           
