@@ -1,10 +1,14 @@
 import "./main.css";
-import React, {useState} from 'react';
-import styled from 'styled-components';
+import React, { Component } from "react";
+import Soloproject from "./tabcomponent/Soloproject";
+import Teamproject from "./tabcomponent.Teamproject";
 
-const Main = () => { 
-  
-  
+const menuList = {
+  0: <Soloproject />,
+  1: <Teamproject/>,
+};
+
+class Main extends React.Component{
   return (
     <main id="contents" class="index-main">
       <section class="banner">
@@ -61,6 +65,9 @@ const Main = () => {
 
     
   );
-};
+}
+  
+  
+ 
 
 export default Main;
