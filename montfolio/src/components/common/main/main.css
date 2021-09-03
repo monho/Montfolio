@@ -42,7 +42,7 @@ main {
 }
 #contents > section > div > div.effect-text2{
     line-height: 30px;
-    width: 60ch;
+    width: 25ch;
     overflow: hidden; 
     position: absolute;
     left:90%;
@@ -110,7 +110,6 @@ main {
 
 .index-main .my-project div{
     text-align: center;
-    padding: 80px 0px;
 }
 
 
@@ -132,4 +131,77 @@ main {
 
 }
 
+#my-content > div > ul {
+    padding:0px;
 
+}
+
+
+
+.tabs li {
+   
+    padding-bottom: 10px;
+    display:inline-block;
+    
+    
+}
+.tabs>  li:nth-child(1){
+    padding-right:60px;
+}
+
+
+
+.tabiteam{
+    font-size: 22px;
+    color:#666;
+    border-bottom: 3px solid rgb(139, 139, 139);
+   cursor: pointer;
+}
+
+.tabiteam:hover{
+    border-bottom: 3px solid #71b1a1;
+}
+
+
+
+
+  #my-content > div > ul > li.is-active > p{
+    border-bottom: 3px solid #1ca381;
+  }
+
+
+  .soloproject-div{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+  
+
+#my-content > div > div > div > p:nth-child(2){
+    padding:0 0 50px;
+}
+
+
+#my-content > div > div > div > ul{
+    font-size: 0px;
+    margin: 32px 0px;
+
+}
+#my-content > div > div > div > ul > li{
+    position: relative;
+    width: 33.3%;
+    padding: 0 35px 31px 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#my-content > div > div > div > ul > li:nth-child(1) > a > img{
+    width:100%
+}
+
+
+#my-content > div > div > div > ul > li:nth-child(1) > div.title{
+    margin: 24px 0 0;
+    font-size: 16px;
+}
