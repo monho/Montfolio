@@ -25,7 +25,7 @@ const Project = () => {
                   <div class="title">문트폴리오 개인 포트폴리오<br></br>Node.js,React.js,Mysql
                     <br></br>
                     
-                   <FontAwesomeIcon icon={faArrowAltCircleRight} className="allow" />바로가기
+                   <FontAwesomeIcon icon={faArrowAltCircleRight} className="allow" />{" "}자세히 보기
                   </div>
                   </a>
                 </li>
