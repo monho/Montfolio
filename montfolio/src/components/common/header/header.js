@@ -6,7 +6,7 @@ const Header = () => {
               <h1>
                 <a href="/">
                 {/* 로고 */}
-                  <img src="https://i.ibb.co/tb8KCsv/001.png"></img> 
+                  <img src="img/header-img/logo.png"></img> 
                 </a>
               </h1>
               <nav class="lnb menu">

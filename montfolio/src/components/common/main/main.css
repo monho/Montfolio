@@ -1,6 +1,6 @@
 main {
     min-height: calc(100vh - 185px);
-    padding-top: 81px;
+    /* padding-top: 81px; */
 }
 
 .index-main .banner {
@@ -179,7 +179,7 @@ main {
   
 
 #my-content > div > div > div > p:nth-child(2){
-    padding:0 0 50px;
+    padding:0 0 40px;
 }
 
 
@@ -201,7 +201,22 @@ main {
 }
 
 
-#my-content > div > div > div > ul > li:nth-child(1) > div.title{
+#my-content > div > div > div > ul > li:nth-child(1) > a > div{
     margin: 24px 0 0;
     font-size: 16px;
+}
+
+
+.sub-div{
+    background: #fafafa;
+    width:1920px !important;
+}
+.sub-divp{
+    padding:0 !important;
+    font-size:35px!important;
+    color:#d2d2d2;
+}
+.soloproject > li > a > img{
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 0px;
 }
