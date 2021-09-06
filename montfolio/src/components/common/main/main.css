@@ -196,12 +196,9 @@ main {
     display: inline-block;
 }
 
-#my-content > div > div > div > ul > li:nth-child(1) > a > img{
-    width:100%
-}
 
 
-#my-content > div > div > div > ul > li:nth-child(1) > a > div{
+#my-content > div > div > div > ul > li > a > div{
     margin: 24px 0 0;
     font-size: 16px;
 }
@@ -219,5 +216,22 @@ main {
 .soloproject > li > a > img{
     border-radius: 15px;
     box-shadow: 1px 1px 5px 0px;
+    width: 100%;
 }
 
+
+.more{
+    display: inline-block;
+    border-radius: 60px;
+    height: 45px;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 45px;
+    border: 1px solid hsla(0,0%,59.2%,.24);
+    background-color: #fff;
+    margin-bottom:35px;
+}
+.more:hover{
+    color:#fff;
+    background: #71b1a1;
+}
