@@ -52,7 +52,7 @@ const Project = () => {
                   </a>
                 </li>
               </ul>
-              <a class="more" href="/blog/post">프로젝트 더 보기</a>
+              <a class="more" href="#">프로젝트 더 보기</a>
             </div>
         )
     },
