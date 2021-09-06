@@ -18,7 +18,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-gsap": "^3.2.1",
+<<<<<<< HEAD
     "react-router-dom": "^5.3.0",
+=======
+    "react-router-dom": "^5.2.1",
+>>>>>>> f99c3fd9a63ee9a729b37540013c39ef6e5e8a63
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.1",
     "web-vitals": "^1.1.2"
