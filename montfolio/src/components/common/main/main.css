@@ -209,7 +209,7 @@ main {
 
 .sub-div{
     background: #fafafa;
-    width:1920px !important;
+    width:100% !important;
 }
 .sub-divp{
     padding:0 !important;
