@@ -5,7 +5,7 @@ const Banner = () => {
         <section class="banner">
         <div class="banner-area">
           <div class="text-area">
-            <span class="title"><span class="word">항</span>상 흔적을 남기는</span>
+            <span class="title">항상 <span class="word">흔적</span>을 남기는</span>
            
           </div>
           <div class="effect-text">

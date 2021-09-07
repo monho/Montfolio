@@ -7,7 +7,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={P.mainPage} />
+        <Route basename={process.env.PUBLIC_URL} path="/" component={P.mainPage} />
         <Redirect path="*" to="/" />
       </Switch>
     </BrowserRouter>
