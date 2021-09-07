@@ -17,6 +17,7 @@ const Header = () => {
                   <li><a href="/project" class="">프로젝트</a></li>
                   <li><a href="https://github.com/monho" target="_blank">GITHUB</a></li>
 	            </ul>
+                
 	            </nav>
             </div>
       </header>

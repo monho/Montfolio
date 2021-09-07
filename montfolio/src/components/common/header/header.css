@@ -8,7 +8,9 @@ header {
     background: #fff;
     min-width: 105rem;
 }   
-
+.navBar_toggleBtn {
+    display: none;
+  }
 header > div {
     width: 100%;
     height: 5rem;
@@ -31,25 +33,37 @@ header h1 >a{
 
 header .menu {
     float: left;
+    justify-content: space-between;
+    display: flex;
     margin-left: 1.7rem;
+    align-items: center;
 }
 
 header .lnb ul {
     font-size: 0rem;
+    display: flex;
 }
 
 header .lnb li {
-    display: inline-block;
-}
 
+    
+}
+header .lnb li :hover{color:#71b1a1}
 header .lnb li a {
     display: block;
     line-height: 5rem;
     padding: 0 1.2rem;
     font-size: 1rem
 }
+.navbar__toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: var(--accent-color);
+  }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1024px) {
 
     header{
         min-width: 80rem;
@@ -84,20 +98,11 @@ header .lnb li a {
     }
 }
 
-@media screen and (max-width:765px) {
-
-    #root > header > div{
-        width: 100%;
-    
-        
+@media screen and (max-width:767px) {
+    header .menu{
+        flex-direction: column;
     }
-    header h1 {
-        float: left;
-        line-height: 61px;
-        height: 40x;
+    header .lnb ul {
+        flex-direction: column;
     }
-    header h1 a{
-        display: inline-block;
-    }
-    
 }
