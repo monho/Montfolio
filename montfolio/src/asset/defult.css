@@ -21,3 +21,12 @@ main, header, section, nav, footer, aside, article, figure {
         width:100%;
     }
 }
+
+body, input, select, textarea, button {
+    border: none;
+    font-size: 12px;
+    font-family: 'Spoqa Han Sans', sans-serif;
+    color: #333;
+    font-weight: 300;
+    background: transparent;
+}
