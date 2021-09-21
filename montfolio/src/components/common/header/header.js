@@ -1,6 +1,6 @@
 import "./header.css";
 import React, { useState } from 'react';
-import { IoIosMenu } from "react-icons/io";
+
 const Header = () => {
      
     return (
