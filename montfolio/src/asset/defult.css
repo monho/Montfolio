@@ -16,8 +16,3 @@ main, header, section, nav, footer, aside, article, figure {
     overflow: hidden;
 }
 
-@media screen and (max-width:1050px) {
-    main{
-        width:100%;
-    }
-}

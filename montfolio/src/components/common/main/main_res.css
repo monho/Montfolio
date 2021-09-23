@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+
+
+    
+    #contents > section.banner{
+        height: 300px;
+        background-size: cover;
+    }
+    .banner-area{
+        width: 100%;
+    }
+
+    #contents > section.banner > div > div.text-area{
+        padding: 80px 0 0 15px;
+    }
+    #contents > section.banner > div > img{
+        display: none;
+    }
+
+    #contents > section.banner > div > div.text-area > span{
+        font-size: 1.5rem;
+
+    }
+    #contents > section.banner > div > div.text-area > span > span{
+        font-size:2.5rem;
+    }
+    #contents > section > div > div.effect-text p {
+        padding: 0 0 0 15px;
+    }
+    #my-content > div:nth-child(1){
+        width:100% !important;
+    }
+
+    .skill-img li{
+        display: flex !important;
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 36px;
+        vertical-align: middle;
+        align-items: center;
+    }
+    .skill-img li p{
+        text-align: left;
+    margin-left: 32px;
+    font-size: 14px;
+    }
+    .skill-img li div{
+        min-width: 64px;
+    }
+
+    .skill-img li img{
+        width:57px !important;
+    }
+
+
+}
+

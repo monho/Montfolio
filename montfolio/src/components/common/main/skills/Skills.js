@@ -1,4 +1,5 @@
 import "../main.css";
+import "../main_res.css"
 const Skills = () => {
     return (
       <main id="contents" class="index-main">

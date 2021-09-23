@@ -39,7 +39,7 @@
     nav .mobileNavButton > span + span {margin-top: 4px;}
     nav .lnb {height: 0%;}
     nav .lnb.collapse {height: auto; float:none; clear: both; background: #fff;}
-    .mobileMenuLinks {display: block;  opacity: 1; padding:15px; margin-top:10%}
+    .mobileMenuLinks {display: block;  opacity: 1; padding:15px; margin-top:13%}
     .mobileMenuLinks li{margin-bottom:15px;}
     nav .lnb ul {display: none; opacity: 0; padding:0 0 16px 0; border-bottom: 1px solid #eee;}
     nav .lnb li {display: block; margin-top:10px;}
